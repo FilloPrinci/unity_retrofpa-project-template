@@ -245,9 +245,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.FresnelPulse
   propertyName: _FresnelPulse
-  minValue: 0
+  minValue: 0.5
   maxValue: 1
-  speed: 1
+  speed: 10
+  pulsePause: 1
 --- !u!1 &738622713
 GameObject:
   m_ObjectHideFlags: 0
