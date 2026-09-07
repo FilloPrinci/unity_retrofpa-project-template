@@ -1789,6 +1789,24 @@ MonoBehaviour:
   toggleAction: {fileID: 7727032971491509709, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   resumeButton: {fileID: 1549605512}
   quitButton: {fileID: 1016646898}
+  resumeLabel:
+    m_TableReference:
+      m_TableCollectionName: GUID:f8a2da222613b824d9c71491b8200833
+    m_TableEntryReference:
+      m_KeyId: 70446534659
+      m_Key:
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  quitLabel:
+    m_TableReference:
+      m_TableCollectionName: GUID:f8a2da222613b824d9c71491b8200833
+    m_TableEntryReference:
+      m_KeyId: 70446534658
+      m_Key:
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
 --- !u!225 &1062286031
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1939,6 +1957,15 @@ MonoBehaviour:
   continueButton: {fileID: 1314713627}
   choicesContainer: {fileID: 1621766736}
   choiceButtonPrefab: {fileID: 1412401172187671488, guid: eaad4d8aded7d9f418760bf95fcc1d64, type: 3}
+  continueLabel:
+    m_TableReference:
+      m_TableCollectionName: GUID:f8a2da222613b824d9c71491b8200833
+    m_TableEntryReference:
+      m_KeyId: 70446534660
+      m_Key:
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
 --- !u!225 &1175765338
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -2009,6 +2036,24 @@ MonoBehaviour:
   bootstrapper: {fileID: 1024811551}
   newGameButton: {fileID: 878572506}
   quitButton: {fileID: 2109459963}
+  newGameLabel:
+    m_TableReference:
+      m_TableCollectionName: GUID:f8a2da222613b824d9c71491b8200833
+    m_TableEntryReference:
+      m_KeyId: 70446534657
+      m_Key:
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  quitLabel:
+    m_TableReference:
+      m_TableCollectionName: GUID:f8a2da222613b824d9c71491b8200833
+    m_TableEntryReference:
+      m_KeyId: 70446534658
+      m_Key:
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
 --- !u!225 &1263762695
 CanvasGroup:
   m_ObjectHideFlags: 0

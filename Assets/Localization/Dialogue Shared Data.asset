@@ -19,6 +19,22 @@ MonoBehaviour:
     m_Key: TEST_KEY
     m_Metadata:
       m_Items: []
+  - m_Id: 70446534657
+    m_Key: NEW_GAME_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534658
+    m_Key: QUIT_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534659
+    m_Key: RESUME_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534660
+    m_Key: CONTINUE_LABEL
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
