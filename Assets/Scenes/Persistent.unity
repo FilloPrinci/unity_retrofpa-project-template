@@ -604,7 +604,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.InteractionPromptUI
   promptRoot: {fileID: 974829933}
   promptText: {fileID: 974829935}
-  defaultPrompt: Interact
+  defaultPrompt:
+    m_TableReference:
+      m_TableCollectionName: GUID:f8a2da222613b824d9c71491b8200833
+    m_TableEntryReference:
+      m_KeyId: 70446534661
+      m_Key:
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   keyLabel: '[E]'
 --- !u!1 &338438870
 GameObject:

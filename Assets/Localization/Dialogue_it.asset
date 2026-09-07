@@ -38,6 +38,10 @@ MonoBehaviour:
     m_Localized: Continua
     m_Metadata:
       m_Items: []
+  - m_Id: 70446534661
+    m_Localized: Interagisci
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -35,6 +35,10 @@ MonoBehaviour:
     m_Key: CONTINUE_LABEL
     m_Metadata:
       m_Items: []
+  - m_Id: 70446534661
+    m_Key: INTERACT_DEFAULT_LABEL
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
