@@ -42,6 +42,10 @@ MonoBehaviour:
     m_Localized: Interagisci
     m_Metadata:
       m_Items: []
+  - m_Id: 70446534662
+    m_Localized: Impostazioni
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
