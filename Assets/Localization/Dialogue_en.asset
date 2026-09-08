@@ -50,6 +50,34 @@ MonoBehaviour:
     m_Localized: Close
     m_Metadata:
       m_Items: []
+  - m_Id: 70446534664
+    m_Localized: Master Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534665
+    m_Localized: Music Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534666
+    m_Localized: SFX Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534667
+    m_Localized: Look Sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534668
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534669
+    m_Localized: VSync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534670
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

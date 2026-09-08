@@ -50,6 +50,34 @@ MonoBehaviour:
     m_Localized: Chiudi
     m_Metadata:
       m_Items: []
+  - m_Id: 70446534664
+    m_Localized: Volume Generale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534665
+    m_Localized: Volume Musica
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534666
+    m_Localized: Volume Effetti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534667
+    m_Localized: Sensibilità Visuale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534668
+    m_Localized: Lingua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534669
+    m_Localized: VSync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534670
+    m_Localized: Risoluzione
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

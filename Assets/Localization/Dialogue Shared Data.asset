@@ -47,6 +47,34 @@ MonoBehaviour:
     m_Key: CLOSE_LABEL
     m_Metadata:
       m_Items: []
+  - m_Id: 70446534664
+    m_Key: MASTER_VOLUME_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534665
+    m_Key: MUSIC_VOLUME_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534666
+    m_Key: SFX_VOLUME_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534667
+    m_Key: LOOK_SENSITIVITY_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534668
+    m_Key: LANGUAGE_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534669
+    m_Key: VSYNC_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534670
+    m_Key: RESOLUTION_LABEL
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
