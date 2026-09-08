@@ -75,6 +75,10 @@ MonoBehaviour:
     m_Key: RESOLUTION_LABEL
     m_Metadata:
       m_Items: []
+  - m_Id: 70446534671
+    m_Key: FULLSCREEN_LABEL
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

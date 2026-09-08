@@ -78,6 +78,10 @@ MonoBehaviour:
     m_Localized: Risoluzione
     m_Metadata:
       m_Items: []
+  - m_Id: 70446534671
+    m_Localized: Schermo Intero
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
