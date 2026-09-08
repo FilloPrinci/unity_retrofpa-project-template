@@ -43,6 +43,10 @@ MonoBehaviour:
     m_Key: SETTINGS_LABEL
     m_Metadata:
       m_Items: []
+  - m_Id: 70446534663
+    m_Key: CLOSE_LABEL
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
