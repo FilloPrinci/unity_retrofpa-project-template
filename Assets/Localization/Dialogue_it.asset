@@ -90,6 +90,14 @@ MonoBehaviour:
     m_Localized: Una vecchia chiave arrugginita. Potrebbe ancora aprire qualcosa.
     m_Metadata:
       m_Items: []
+  - m_Id: 70446534674
+    m_Localized: Equipaggia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534675
+    m_Localized: Rimuovi
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

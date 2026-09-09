@@ -87,6 +87,14 @@ MonoBehaviour:
     m_Key: ITEM_RUSTY_KEY_DESC
     m_Metadata:
       m_Items: []
+  - m_Id: 70446534674
+    m_Key: EQUIP_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534675
+    m_Key: UNEQUIP_LABEL
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

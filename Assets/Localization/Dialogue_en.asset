@@ -90,6 +90,14 @@ MonoBehaviour:
     m_Localized: An old, rusty key. It might still open something.
     m_Metadata:
       m_Items: []
+  - m_Id: 70446534674
+    m_Localized: Equip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534675
+    m_Localized: Unequip
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
