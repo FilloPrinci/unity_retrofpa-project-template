@@ -79,6 +79,14 @@ MonoBehaviour:
     m_Key: FULLSCREEN_LABEL
     m_Metadata:
       m_Items: []
+  - m_Id: 70446534672
+    m_Key: ITEM_RUSTY_KEY_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534673
+    m_Key: ITEM_RUSTY_KEY_DESC
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

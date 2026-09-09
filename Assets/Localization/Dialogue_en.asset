@@ -82,6 +82,14 @@ MonoBehaviour:
     m_Localized: Fullscreen
     m_Metadata:
       m_Items: []
+  - m_Id: 70446534672
+    m_Localized: Rusty Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534673
+    m_Localized: An old, rusty key. It might still open something.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
