@@ -177,13 +177,35 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4882387001791921517, guid: 26898d2c4542e6b4e82780b1f4954f72, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1596763698}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 629066002466404369, guid: 26898d2c4542e6b4e82780b1f4954f72, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 712078339}
   m_SourcePrefab: {fileID: 100100000, guid: 26898d2c4542e6b4e82780b1f4954f72, type: 3}
 --- !u!4 &712078337 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4882387001791921517, guid: 26898d2c4542e6b4e82780b1f4954f72, type: 3}
   m_PrefabInstance: {fileID: 712078336}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &712078338 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 629066002466404369, guid: 26898d2c4542e6b4e82780b1f4954f72, type: 3}
+  m_PrefabInstance: {fileID: 712078336}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &712078339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712078338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70dae13b0f304874fb3e09e9e863afcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.CollectibleItem
+  item: {fileID: 11400000, guid: e2f8f05e4f2c2c344916cb6049ee63c1, type: 2}
+  quantity: 1
 --- !u!1 &738622713
 GameObject:
   m_ObjectHideFlags: 0
