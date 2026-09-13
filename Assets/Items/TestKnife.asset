@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cce358b59bd8d8468378457982b5926, type: 3}
+  m_Name: TestKnife
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.ItemData
+  itemId: test_knife
+  displayName:
+    m_TableReference:
+      m_TableCollectionName: GUID:f8a2da222613b824d9c71491b8200833
+    m_TableEntryReference:
+      m_KeyId: 70446534676
+      m_Key:
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  description:
+    m_TableReference:
+      m_TableCollectionName: GUID:f8a2da222613b824d9c71491b8200833
+    m_TableEntryReference:
+      m_KeyId: 70446534677
+      m_Key:
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  icon: {fileID: 0}
+  worldPrefab: {fileID: 100000000000000001, guid: e49a0660cb704d0c8e25452fa0fbd9a7, type: 3}
+  maxStackSize: 1
+  equippableBehavior: {fileID: 11400000, guid: 81f74261311147bcb0658dbd5f02575e, type: 2}

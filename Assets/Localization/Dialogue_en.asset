@@ -98,6 +98,14 @@ MonoBehaviour:
     m_Localized: Unequip
     m_Metadata:
       m_Items: []
+  - m_Id: 70446534676
+    m_Localized: Test Knife
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534677
+    m_Localized: A plain test knife, used to try out equipping and the 3D preview.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
