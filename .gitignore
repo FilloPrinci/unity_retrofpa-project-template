@@ -51,12 +51,16 @@ ExportedObj/
 *.csproj
 *.unityproj
 *.sln
+*.slnx
 *.suo
 *.tmp
 *.user
 *.userprefs
 *.pidb
 *.booproj
+
+# Per-machine editor state
+.vscode/
 *.svd
 *.pdb
 *.mdb
