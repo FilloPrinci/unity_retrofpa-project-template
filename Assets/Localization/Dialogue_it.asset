@@ -106,6 +106,34 @@ MonoBehaviour:
     m_Localized: Un semplice coltello di prova, per testare l'equipaggiamento e l'anteprima 3D.
     m_Metadata:
       m_Items: []
+  - m_Id: 70446534678
+    m_Localized: Parla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534679
+    m_Localized: Salve, viandante. Stai cercando qualcosa?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534680
+    m_Localized: Hai bisogno di indicazioni?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534681
+    m_Localized: Sì, per favore.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534682
+    m_Localized: No, va bene così.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534683
+    m_Localized: Vai a nord oltre il vecchio pozzo, non puoi sbagliare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534684
+    m_Localized: Come vuoi.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

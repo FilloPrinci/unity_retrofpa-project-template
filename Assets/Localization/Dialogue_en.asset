@@ -106,6 +106,34 @@ MonoBehaviour:
     m_Localized: A plain test knife, used to try out equipping and the 3D preview.
     m_Metadata:
       m_Items: []
+  - m_Id: 70446534678
+    m_Localized: Talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534679
+    m_Localized: Hello there, traveler. Are you looking for something?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534680
+    m_Localized: Do you need directions?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534681
+    m_Localized: Yes, please.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534682
+    m_Localized: No, I'm fine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534683
+    m_Localized: Head north past the old well, you can't miss it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534684
+    m_Localized: Suit yourself.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

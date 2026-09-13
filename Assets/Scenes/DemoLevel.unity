@@ -905,13 +905,61 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5269494410688705731, guid: 400efd27832937d4e9099ecf75dbde6c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1546340727}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3369110516078410530, guid: 400efd27832937d4e9099ecf75dbde6c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 900000011}
+    - targetCorrespondingSourceObject: {fileID: 3369110516078410530, guid: 400efd27832937d4e9099ecf75dbde6c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 900000012}
   m_SourcePrefab: {fileID: 100100000, guid: 400efd27832937d4e9099ecf75dbde6c, type: 3}
 --- !u!4 &2464200109510888131 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5269494410688705731, guid: 400efd27832937d4e9099ecf75dbde6c, type: 3}
   m_PrefabInstance: {fileID: 2464200109510888130}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &900000010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3369110516078410530, guid: 400efd27832937d4e9099ecf75dbde6c, type: 3}
+  m_PrefabInstance: {fileID: 2464200109510888130}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &900000011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900000010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f7b322f1032af4cb0955a918b3b0f7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.Interactable
+  promptText:
+    m_TableReference:
+      m_TableCollectionName: GUID:f8a2da222613b824d9c71491b8200833
+    m_TableEntryReference:
+      m_KeyId: 70446534678
+      m_Key:
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &900000012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900000010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e109e4b70cea34a438d0ee23bc3674d7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.DialogueTrigger
+  dialogue: {fileID: 11400000, guid: c584dd74aa77bf04e90543658f5d2f0b, type: 2}
 --- !u!1001 &6794014839037629773
 PrefabInstance:
   m_ObjectHideFlags: 0

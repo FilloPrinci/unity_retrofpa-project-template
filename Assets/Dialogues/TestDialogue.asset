@@ -13,25 +13,25 @@ MonoBehaviour:
   m_Name: TestDialogue
   m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.DialogueData
   Nodes:
-  - SpeakerName: Speaker1
+  - SpeakerName: Villager
     Text:
       m_TableReference:
         m_TableCollectionName: GUID:f8a2da222613b824d9c71491b8200833
       m_TableEntryReference:
-        m_KeyId: 70446534656
-        m_Key: 
+        m_KeyId: 70446534679
+        m_Key:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
     NextNodeIndex: 1
     Choices: []
-  - SpeakerName: Speaker1
+  - SpeakerName: Villager
     Text:
       m_TableReference:
-        m_TableCollectionName: 
+        m_TableCollectionName: GUID:f8a2da222613b824d9c71491b8200833
       m_TableEntryReference:
-        m_KeyId: 0
-        m_Key: 
+        m_KeyId: 70446534680
+        m_Key:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
@@ -39,31 +39,43 @@ MonoBehaviour:
     Choices:
     - ChoiceText:
         m_TableReference:
-          m_TableCollectionName: 
+          m_TableCollectionName: GUID:f8a2da222613b824d9c71491b8200833
         m_TableEntryReference:
-          m_KeyId: 0
-          m_Key: 
+          m_KeyId: 70446534681
+          m_Key:
         m_FallbackState: 0
         m_WaitForCompletion: 0
         m_LocalVariables: []
       NextNodeIndex: 2
     - ChoiceText:
         m_TableReference:
-          m_TableCollectionName: 
+          m_TableCollectionName: GUID:f8a2da222613b824d9c71491b8200833
         m_TableEntryReference:
-          m_KeyId: 0
-          m_Key: 
+          m_KeyId: 70446534682
+          m_Key:
         m_FallbackState: 0
         m_WaitForCompletion: 0
         m_LocalVariables: []
-      NextNodeIndex: -1
-  - SpeakerName: 
+      NextNodeIndex: 3
+  - SpeakerName: Villager
     Text:
       m_TableReference:
-        m_TableCollectionName: 
+        m_TableCollectionName: GUID:f8a2da222613b824d9c71491b8200833
       m_TableEntryReference:
-        m_KeyId: 0
-        m_Key: 
+        m_KeyId: 70446534683
+        m_Key:
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    NextNodeIndex: -1
+    Choices: []
+  - SpeakerName: Villager
+    Text:
+      m_TableReference:
+        m_TableCollectionName: GUID:f8a2da222613b824d9c71491b8200833
+      m_TableEntryReference:
+        m_KeyId: 70446534684
+        m_Key:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []

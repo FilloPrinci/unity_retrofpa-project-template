@@ -103,6 +103,34 @@ MonoBehaviour:
     m_Key: ITEM_TEST_KNIFE_DESC
     m_Metadata:
       m_Items: []
+  - m_Id: 70446534678
+    m_Key: TALK_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534679
+    m_Key: NPC_TEST_GREETING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534680
+    m_Key: NPC_TEST_QUESTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534681
+    m_Key: NPC_TEST_CHOICE_YES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534682
+    m_Key: NPC_TEST_CHOICE_NO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534683
+    m_Key: NPC_TEST_ANSWER_YES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70446534684
+    m_Key: NPC_TEST_ANSWER_NO
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
