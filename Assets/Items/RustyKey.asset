@@ -18,7 +18,7 @@ MonoBehaviour:
       m_TableCollectionName: GUID:f8a2da222613b824d9c71491b8200833
     m_TableEntryReference:
       m_KeyId: 70446534672
-      m_Key:
+      m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
@@ -27,12 +27,15 @@ MonoBehaviour:
       m_TableCollectionName: GUID:f8a2da222613b824d9c71491b8200833
     m_TableEntryReference:
       m_KeyId: 70446534673
-      m_Key:
+      m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 5af0f804044c1110db7e06936c5ea96c, type: 3}
   worldPrefab: {fileID: 0}
   equippedModelPrefab: {fileID: 100000000000000001, guid: 0c3178ee645144dc94a38bf2e1314c2f, type: 3}
   maxStackSize: 1
   equippableBehavior: {fileID: 11400000, guid: 88b356b4c9024d2096c7a5057b2fd862, type: 2}
+  references:
+    version: 2
+    RefIds: []
