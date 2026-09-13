@@ -32,6 +32,7 @@ MonoBehaviour:
     m_WaitForCompletion: 0
     m_LocalVariables: []
   icon: {fileID: 0}
-  worldPrefab: {fileID: 100000000000000001, guid: 0c3178ee645144dc94a38bf2e1314c2f, type: 3}
+  worldPrefab: {fileID: 0}
+  equippedModelPrefab: {fileID: 100000000000000001, guid: 0c3178ee645144dc94a38bf2e1314c2f, type: 3}
   maxStackSize: 1
   equippableBehavior: {fileID: 11400000, guid: 88b356b4c9024d2096c7a5057b2fd862, type: 2}
