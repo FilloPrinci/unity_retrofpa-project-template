@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: N64SkyboxTemplate
-  m_Shader: {fileID: 4800000, guid: 4806cbaa1aa8756478fc797deb9ac0e7, type: 3}
+  m_Shader: {fileID: 4800000, guid: b4e372c07e005de40b41ffc5dc97ee0d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -27,13 +27,16 @@ Material:
     m_Ints: []
     m_Floats:
     - _AtmosphereThickness: 1
+    - _Curve: 1
     - _Exposure: 1.3
     - _SunDisk: 0
     - _SunSize: 0.04
     - _SunSizeConvergence: 5
     m_Colors:
     - _GroundColor: {r: 0.36899996, g: 0.34899998, b: 0.34099993, a: 1}
+    - _HorizonColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _SkyTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _Tint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _Tint: {r: 0.4513617, g: 0.5943396, b: 0.59433955, a: 1}
+    - _ZenithColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -34,5 +34,7 @@ MonoBehaviour:
   tonemappingEnabled: 1
   tonemappingMode: 1
   skyboxEnabled: 1
-  skyboxColor: {r: 0.45, g: 0.42, b: 0.38, a: 1}
+  skyboxHorizonColor: {r: 0.45, g: 0.42, b: 0.38, a: 1}
+  skyboxZenithColor: {r: 0.3, g: 0.3, b: 0.34, a: 1}
+  skyboxCurve: 1.2
   skyboxExposure: 1
