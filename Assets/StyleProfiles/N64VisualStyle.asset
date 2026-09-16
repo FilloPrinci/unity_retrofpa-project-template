@@ -33,6 +33,8 @@ MonoBehaviour:
   bloomTint: {r: 1, g: 1, b: 1, a: 1}
   tonemappingEnabled: 1
   tonemappingMode: 1
+  textureFilterMode: 1
+  applyToUITextures: 0
   skyboxEnabled: 1
   skyboxHorizonColor: {r: 0.45, g: 0.42, b: 0.38, a: 1}
   skyboxZenithColor: {r: 0.3, g: 0.3, b: 0.34, a: 1}
