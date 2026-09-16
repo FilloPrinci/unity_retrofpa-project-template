@@ -376,7 +376,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1248179505}
   m_HandleRect: {fileID: 1248179504}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -555,6 +555,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.StyleManager
   targetVolume: {fileID: 446759264}
   initialProfile: {fileID: 11400000, guid: 0096a07ec2828fc4c964e75e0f7935df, type: 2}
+  skyboxMaterialTemplate: {fileID: 2100000, guid: 215ecf6b8d9607e4dbef97066e082edb, type: 2}
 --- !u!1 &196939242
 GameObject:
   m_ObjectHideFlags: 0
@@ -9052,15 +9053,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3174731687199534409, guid: 4be77ccf54073e24a87f738ce7fa79f8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3174731687199534409, guid: 4be77ccf54073e24a87f738ce7fa79f8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 3174731687199534409, guid: 4be77ccf54073e24a87f738ce7fa79f8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3174731687199534409, guid: 4be77ccf54073e24a87f738ce7fa79f8, type: 3}
       propertyPath: m_LocalRotation.w

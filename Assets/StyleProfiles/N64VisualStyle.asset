@@ -33,3 +33,6 @@ MonoBehaviour:
   bloomTint: {r: 1, g: 1, b: 1, a: 1}
   tonemappingEnabled: 1
   tonemappingMode: 1
+  skyboxEnabled: 1
+  skyboxColor: {r: 0.45, g: 0.42, b: 0.38, a: 1}
+  skyboxExposure: 1
