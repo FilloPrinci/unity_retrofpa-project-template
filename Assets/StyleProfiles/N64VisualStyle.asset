@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.VisualStyleProfile
   fogEnabled: 1
   fogMode: 1
-  fogColor: {r: 0.45, g: 0.42, b: 0.38, a: 1}
+  fogColor: {r: 0.38039216, g: 0.44705883, b: 0.4509804, a: 1}
   fogDensity: 0.02
   fogStartDistance: 5
   fogEndDistance: 35
   ambientMode: 3
-  ambientLight: {r: 0.35, g: 0.33, b: 0.3, a: 1}
+  ambientLight: {r: 0.38039216, g: 0.44705883, b: 0.4509804, a: 1}
   colorAdjustmentsEnabled: 1
   postExposure: 0
   contrast: -15
@@ -28,15 +28,15 @@ MonoBehaviour:
   saturation: -20
   bloomEnabled: 1
   bloomThreshold: 1.1
-  bloomIntensity: 0.15
-  bloomScatter: 0.6
+  bloomIntensity: 0.5
+  bloomScatter: 0.7
   bloomTint: {r: 1, g: 1, b: 1, a: 1}
   tonemappingEnabled: 1
   tonemappingMode: 1
-  textureFilterMode: 1
+  textureFilterMode: 2
   applyToUITextures: 0
   skyboxEnabled: 1
-  skyboxHorizonColor: {r: 0.45, g: 0.42, b: 0.38, a: 1}
-  skyboxZenithColor: {r: 0.3, g: 0.3, b: 0.34, a: 1}
+  skyboxHorizonColor: {r: 0.38039216, g: 0.44515163, b: 0.4509804, a: 1}
+  skyboxZenithColor: {r: 0.21493416, g: 0.33336014, b: 0.6603774, a: 1}
   skyboxCurve: 1.2
   skyboxExposure: 1
