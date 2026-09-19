@@ -12,12 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d682429ef9241e4980fcee51871fb09, type: 3}
   m_Name: N64VisualStyle
   m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.VisualStyleProfile
-  fogEnabled: 1
-  fogMode: 1
-  fogColor: {r: 0.38039216, g: 0.44705883, b: 0.4509804, a: 1}
-  fogDensity: 0.02
-  fogStartDistance: 5
-  fogEndDistance: 35
   ambientMode: 3
   ambientLight: {r: 0.38039216, g: 0.44705883, b: 0.4509804, a: 1}
   colorAdjustmentsEnabled: 1
@@ -35,8 +29,3 @@ MonoBehaviour:
   tonemappingMode: 1
   textureFilterMode: 2
   applyToUITextures: 0
-  skyboxEnabled: 1
-  skyboxHorizonColor: {r: 0.38039216, g: 0.44515163, b: 0.4509804, a: 1}
-  skyboxZenithColor: {r: 0.21493416, g: 0.33336014, b: 0.6603774, a: 1}
-  skyboxCurve: 1.2
-  skyboxExposure: 1
