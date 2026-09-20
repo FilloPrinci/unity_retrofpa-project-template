@@ -35,7 +35,9 @@ the full design brief and rationale behind this project's structure.
 - **`Assets/Items/`** — `RustyKey` (a plain key, not equippable),
   `TestKnife` (equippable, exercises the inventory's Equip/Unequip toggle
   and its live 3D preview), `TestItemA`/`TestItemB` (inventory-grid filler),
-  `HeldItemBehavior`/`TestKnifeBehavior` (their `EquippableBehavior` assets).
+  `HeldItemBehavior`/`TestKnifeBehavior` (their `EquippableBehavior` assets),
+  `ItemDatabase` (lists all of the above, for `SaveManager` to resolve a
+  saved item id back to its asset).
 - **`Assets/Dialogues/TestDialogue.asset`** — a 4-node branching conversation
   (greeting → yes/no question → two endings), fully localized (EN/IT).
 - **`Assets/Prefabs/`** — the `Player` prefab, item world/equipped-model
@@ -44,7 +46,10 @@ the full design brief and rationale behind this project's structure.
 Press Play, "Nuova Partita"/"New Game" from the main menu, and you're in
 `DemoLevel`: walk up to the NPC to talk, the key/knife to pick them up, open
 the inventory (Tab) to equip the knife, Escape for the pause menu (Settings
-reachable from either menu), and the portal cube to try the other level.
+reachable from either menu, Save writes a single save file), and the portal
+cube to try the other level. "Continue" on the main menu (only enabled once
+you've saved) restores the exact level, position, inventory, and equipped
+item — and any collectibles you already picked up stay gone.
 
 ## Requirements
 
@@ -81,7 +86,7 @@ dependency and import automatically.
 Mirrors `retrofpa-core`'s own list — no combat/health/HUD yet (equipping the
 test knife has no gameplay effect beyond the input path), no Scene Template
 asset yet (new levels are still built by hand or duplicated, as `DemoLevel2`
-was from `DemoLevel`), no save/load.
+was from `DemoLevel`).
 
 ## License
 
