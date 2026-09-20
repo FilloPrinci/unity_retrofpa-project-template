@@ -254,6 +254,7 @@ MonoBehaviour:
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
+  interactSound: {fileID: 0}
   onInteract:
     m_PersistentCalls:
       m_Calls: []
@@ -335,6 +336,51 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e12a412d583d3543ae5a6f4f82e370c, type: 3}
+--- !u!1 &654495112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 654495113}
+  - component: {fileID: 654495114}
+  m_Layer: 0
+  m_Name: SceneAmbientAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &654495113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654495112}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &654495114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654495112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9afc9ca5d2106de47bb943e10bd4eea9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.SceneAmbientAudio
+  ambientTrack: {fileID: 0}
 --- !u!1001 &712078336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -749,6 +795,7 @@ MonoBehaviour:
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
+  interactSound: {fileID: 0}
   onInteract:
     m_PersistentCalls:
       m_Calls: []
@@ -767,6 +814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 512e62ea013831243b424be9063ae553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.Collectible
+  pickupSound: {fileID: 0}
   onCollected:
     m_PersistentCalls:
       m_Calls: []
@@ -823,6 +871,7 @@ MonoBehaviour:
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
+  interactSound: {fileID: 0}
   onInteract:
     m_PersistentCalls:
       m_Calls: []
@@ -1532,3 +1581,4 @@ SceneRoots:
   - {fileID: 344593367}
   - {fileID: 778019865}
   - {fileID: 60475229}
+  - {fileID: 654495113}

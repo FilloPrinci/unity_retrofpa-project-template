@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81c63ab68a568d64cb973316b14ac31a, type: 3}
+  m_Name: N64AudioProfile
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.AudioProfile
+  uiHoverSound: {fileID: 0}
+  uiConfirmSound: {fileID: 0}
+  mainMenuMusic: {fileID: 0}
+  defaultFootstepSound: {fileID: 0}
+  defaultPickupSound: {fileID: 0}
+  defaultInteractSound: {fileID: 0}

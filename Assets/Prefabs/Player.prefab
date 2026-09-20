@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5121598023285502410}
   - component: {fileID: 2102650100810290036}
   - component: {fileID: 173014431688638994}
+  - component: {fileID: -2178402132754036286}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -77,6 +78,7 @@ MonoBehaviour:
   lookAction: {fileID: -5630151704836100654, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   moveSpeed: 4
   gravity: -20
+  maxFallSpeed: 20
   cameraTransform: {fileID: 1940397055727610954}
   lookSensitivity: 0.1
   minPitch: -85
@@ -112,6 +114,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.PlayerEquipmentController
   attackAction: {fileID: 1120369429361536294, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+--- !u!114 &-2178402132754036286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411864917842093809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04fcc7f859b2d244fb51975554df66f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.FootstepAudio
+  stepInterval: 0.5
+  minSpeed: 0.5
+  raycastDistance: 1.5
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &1187709595865416157
 GameObject:
   m_ObjectHideFlags: 0

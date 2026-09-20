@@ -1157,6 +1157,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.SaveManager
   itemDatabase: {fileID: 11400000, guid: 630cb617843b768448f62eb9e1ad0ed0, type: 2}
+--- !u!114 &359292015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800000018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bece74f2f30724ab445fd2d88d31f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.UIButtonSound
 --- !u!1 &432581529
 GameObject:
   m_ObjectHideFlags: 0
@@ -2361,6 +2373,7 @@ GameObject:
   - component: {fileID: 800000011}
   - component: {fileID: 800000012}
   - component: {fileID: 800000013}
+  - component: {fileID: 2066401471}
   m_Layer: 5
   m_Name: EquipButton
   m_TagString: Untagged
@@ -2619,6 +2632,7 @@ GameObject:
   - component: {fileID: 800000020}
   - component: {fileID: 800000021}
   - component: {fileID: 800000022}
+  - component: {fileID: 359292015}
   m_Layer: 5
   m_Name: CloseButton
   m_TagString: Untagged
@@ -3269,6 +3283,7 @@ GameObject:
   - component: {fileID: 878572508}
   - component: {fileID: 878572507}
   - component: {fileID: 878572506}
+  - component: {fileID: 878572509}
   m_Layer: 5
   m_Name: NewGameButton
   m_TagString: Untagged
@@ -3378,6 +3393,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 878572504}
   m_CullTransparentMesh: 1
+--- !u!114 &878572509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878572504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bece74f2f30724ab445fd2d88d31f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.UIButtonSound
 --- !u!1 &974829933
 GameObject:
   m_ObjectHideFlags: 0
@@ -3751,6 +3778,7 @@ GameObject:
   - component: {fileID: 1016646900}
   - component: {fileID: 1016646899}
   - component: {fileID: 1016646898}
+  - component: {fileID: 1016646901}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -3860,6 +3888,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016646896}
   m_CullTransparentMesh: 1
+--- !u!114 &1016646901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016646896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bece74f2f30724ab445fd2d88d31f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.UIButtonSound
 --- !u!1 &1024811549
 GameObject:
   m_ObjectHideFlags: 0
@@ -5110,6 +5150,7 @@ GameObject:
   - component: {fileID: 1314713629}
   - component: {fileID: 1314713628}
   - component: {fileID: 1314713627}
+  - component: {fileID: 1314713630}
   m_Layer: 5
   m_Name: ContinueButton
   m_TagString: Untagged
@@ -5219,6 +5260,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314713625}
   m_CullTransparentMesh: 1
+--- !u!114 &1314713630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314713625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bece74f2f30724ab445fd2d88d31f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.UIButtonSound
 --- !u!1 &1325010177
 GameObject:
   m_ObjectHideFlags: 0
@@ -5357,6 +5410,7 @@ GameObject:
   - component: {fileID: 7021897064}
   - component: {fileID: 1335619674}
   - component: {fileID: 4105042134}
+  - component: {fileID: 7021897065}
   m_Layer: 5
   m_Name: CloseButton
   m_TagString: Untagged
@@ -5496,6 +5550,7 @@ GameObject:
   - component: {fileID: 1356060063}
   - component: {fileID: 1356060062}
   - component: {fileID: 1356060061}
+  - component: {fileID: 1356060064}
   m_Layer: 5
   m_Name: SaveButton
   m_TagString: Untagged
@@ -5605,6 +5660,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1356060059}
   m_CullTransparentMesh: 1
+--- !u!114 &1356060064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356060059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bece74f2f30724ab445fd2d88d31f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.UIButtonSound
 --- !u!1 &1372059153
 GameObject:
   m_ObjectHideFlags: 0
@@ -5851,6 +5918,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Mask
   m_ShowMaskGraphic: 0
+--- !u!1 &1419998622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1419998623}
+  - component: {fileID: 1419998624}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1419998623
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419998622}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1419998624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419998622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83a7764e977d594e9beb211f4f8b175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.AudioManager
+  initialProfile: {fileID: 11400000, guid: 2ffd97cd7b963d44cb6703c712965b17, type: 2}
+  worldSoundVolume: 1
 --- !u!114 &1442406492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6337,6 +6450,7 @@ GameObject:
   - component: {fileID: 1549605514}
   - component: {fileID: 1549605513}
   - component: {fileID: 1549605512}
+  - component: {fileID: 1549605515}
   m_Layer: 5
   m_Name: ResumeButton
   m_TagString: Untagged
@@ -6446,6 +6560,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549605510}
   m_CullTransparentMesh: 1
+--- !u!114 &1549605515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549605510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bece74f2f30724ab445fd2d88d31f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.UIButtonSound
 --- !u!224 &1557532131
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7347,6 +7473,7 @@ GameObject:
   - component: {fileID: 1818595485}
   - component: {fileID: 1818595484}
   - component: {fileID: 1818595483}
+  - component: {fileID: 1818595486}
   m_Layer: 5
   m_Name: ContinueButton
   m_TagString: Untagged
@@ -7456,6 +7583,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818595481}
   m_CullTransparentMesh: 1
+--- !u!114 &1818595486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818595481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bece74f2f30724ab445fd2d88d31f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.UIButtonSound
 --- !u!1 &1820714348
 GameObject:
   m_ObjectHideFlags: 0
@@ -8165,6 +8304,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2066401471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800000009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bece74f2f30724ab445fd2d88d31f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.UIButtonSound
 --- !u!1 &2070215130
 GameObject:
   m_ObjectHideFlags: 0
@@ -8398,6 +8549,7 @@ GameObject:
   - component: {fileID: 2109459965}
   - component: {fileID: 2109459964}
   - component: {fileID: 2109459963}
+  - component: {fileID: 2109459966}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -8507,6 +8659,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2109459961}
   m_CullTransparentMesh: 1
+--- !u!114 &2109459966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109459961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bece74f2f30724ab445fd2d88d31f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.UIButtonSound
 --- !u!224 &2157168786
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9280,6 +9444,7 @@ GameObject:
   - component: {fileID: 8886649329}
   - component: {fileID: 1992214602}
   - component: {fileID: 6683082901}
+  - component: {fileID: 8886649330}
   m_Layer: 5
   m_Name: SettingsButton
   m_TagString: Untagged
@@ -9598,6 +9763,7 @@ GameObject:
   - component: {fileID: 7582704741}
   - component: {fileID: 1215112201}
   - component: {fileID: 2301158897}
+  - component: {fileID: 7582704742}
   m_Layer: 5
   m_Name: SettingsButton
   m_TagString: Untagged
@@ -11135,6 +11301,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1335028554}
   m_CullTransparentMesh: 1
+--- !u!114 &7021897065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335028554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bece74f2f30724ab445fd2d88d31f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.UIButtonSound
 --- !u!222 &7033845490
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11352,6 +11530,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3494093551}
   m_CullTransparentMesh: 1
+--- !u!114 &7582704742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3494093551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bece74f2f30724ab445fd2d88d31f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.UIButtonSound
 --- !u!224 &7626156071
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11985,6 +12175,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3053472455}
   m_CullTransparentMesh: 1
+--- !u!114 &8886649330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3053472455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bece74f2f30724ab445fd2d88d31f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.UIButtonSound
 --- !u!1 &8900309908
 GameObject:
   m_ObjectHideFlags: 0
@@ -12101,3 +12303,4 @@ SceneRoots:
   - {fileID: 446759263}
   - {fileID: 131921760}
   - {fileID: 357605059}
+  - {fileID: 1419998623}
