@@ -2,29 +2,55 @@
 
 The Unity project side of the Retro FPA template: a working Unity 6 (URP)
 project that consumes the [`retrofpa-core`](https://github.com/FilloPrinci/unity_retrofpa-core)
-package and demonstrates it end-to-end with real Scene Templates and a small
-demo level.
+package and demonstrates it end-to-end with a small playable demo.
 
 See [`unity_retrofpa_kickoff_brief.md`](unity_retrofpa_kickoff_brief.md) for
 the full design brief and rationale behind this project's structure.
 
 ## What lives here vs. in `retrofpa-core`
 
-- **`retrofpa-core`** is the reusable "engine": manager singletons,
-  components, `ScriptableObject` data types, shaders, and editor tooling.
-  It contains no game-specific content.
+- **`retrofpa-core`** is the reusable "engine": manager singletons, the
+  player controller, UI shell, `ScriptableObject` data types, shaders, and
+  editor tooling. It contains no game-specific content.
 - **This repository** is an actual Unity project: engine/render pipeline
-  configuration (URP, the new Input System, Localization, Scene Template
-  package), the real Scene Templates (e.g. "Base Level" with fog/Volume
-  already configured, a `SpawnPoint`, wired references), and a small demo
-  level built from `retrofpa-core`'s prefabs, proving the two repos work
-  together.
+  configuration (URP, the new Input System, Localization), and a small demo
+  built from `retrofpa-core`'s systems, proving the two repos work together.
+
+## Demo content
+
+- **`Assets/Scenes/Persistent.unity`** — the bootstrap scene: every manager
+  singleton, the `Player` prefab instance, and the full UI Canvas (main
+  menu, pause menu, settings, dialogue, inventory, interaction prompt).
+  Always loaded, never unloaded; levels load additively on top of it.
+- **`Assets/Scenes/DemoLevel.unity`** / **`DemoLevel2.unity`** — two small
+  levels sharing the same layout (an NPC with a branching dialogue, a
+  pickupable key, an equippable test knife) but each with its **own**
+  `SceneAtmosphere` (`Assets/StyleProfiles/DemoLevelAtmosphere.asset` — blue-
+  grey fog/sky — vs. `DemoLevel2Atmosphere.asset` — pure black), proving
+  fog/skybox are per-level while `Assets/StyleProfiles/N64VisualStyle.asset`
+  (ambient, color grading, bloom, texture filtering) stays the same global
+  look across both. A `PortalToDemoLevel2` / `PortalToDemoLevel` object in
+  each level (an `Interactable` + `InteractableSceneChangeTrigger`) lets you
+  walk between them.
+- **`Assets/Items/`** — `RustyKey` (a plain key, not equippable),
+  `TestKnife` (equippable, exercises the inventory's Equip/Unequip toggle
+  and its live 3D preview), `TestItemA`/`TestItemB` (inventory-grid filler),
+  `HeldItemBehavior`/`TestKnifeBehavior` (their `EquippableBehavior` assets).
+- **`Assets/Dialogues/TestDialogue.asset`** — a 4-node branching conversation
+  (greeting → yes/no question → two endings), fully localized (EN/IT).
+- **`Assets/Prefabs/`** — the `Player` prefab, item world/equipped-model
+  prefabs, and the UI prefabs (`InventorySlot`, `DialogueChoiceButton`).
+
+Press Play, "Nuova Partita"/"New Game" from the main menu, and you're in
+`DemoLevel`: walk up to the NPC to talk, the key/knife to pick them up, open
+the inventory (Tab) to equip the knife, Escape for the pause menu (Settings
+reachable from either menu), and the portal cube to try the other level.
 
 ## Requirements
 
 - Unity **6000.3.17f1** (see [`ProjectSettings/ProjectVersion.txt`](ProjectSettings/ProjectVersion.txt))
-- Universal Render Pipeline (URP), new Input System — both already configured
-  in this project
+- Universal Render Pipeline (URP), new Input System, Localization — all
+  already configured in this project
 
 ## Setup
 
@@ -49,6 +75,13 @@ independently, this will switch to a git URL pinned to a release tag.
 
 Open the project in Unity Hub once cloned; Unity will resolve the package
 dependency and import automatically.
+
+## Known gaps
+
+Mirrors `retrofpa-core`'s own list — no combat/health/HUD yet (equipping the
+test knife has no gameplay effect beyond the input path), no Scene Template
+asset yet (new levels are still built by hand or duplicated, as `DemoLevel2`
+was from `DemoLevel`), no save/load.
 
 ## License
 
