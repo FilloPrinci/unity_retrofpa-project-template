@@ -397,6 +397,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 629066002466404369, guid: 26898d2c4542e6b4e82780b1f4954f72, type: 3}
       insertIndex: -1
       addedObject: {fileID: 712078339}
+    - targetCorrespondingSourceObject: {fileID: 629066002466404369, guid: 26898d2c4542e6b4e82780b1f4954f72, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 712078340}
+    - targetCorrespondingSourceObject: {fileID: 629066002466404369, guid: 26898d2c4542e6b4e82780b1f4954f72, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 712078341}
   m_SourcePrefab: {fileID: 100100000, guid: 26898d2c4542e6b4e82780b1f4954f72, type: 3}
 --- !u!4 &712078337 stripped
 Transform:
@@ -422,6 +428,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.CollectibleItem
   item: {fileID: 11400000, guid: e2f8f05e4f2c2c344916cb6049ee63c1, type: 2}
   quantity: 1
+--- !u!114 &712078340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712078338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e4241ed8452020469289c007f707fdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.SaveableId
+  id: 844fe6cebbd344ceb2520ea17193d9b0
+--- !u!114 &712078341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712078338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd83a8a912328794b8be3401d8574640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.SaveableCollectible
 --- !u!1 &738622713
 GameObject:
   m_ObjectHideFlags: 0
@@ -595,6 +626,8 @@ GameObject:
   - component: {fileID: 900000006}
   - component: {fileID: 900000007}
   - component: {fileID: 900000008}
+  - component: {fileID: 900000009}
+  - component: {fileID: 900000013}
   m_Layer: 0
   m_Name: TestKnifePickup
   m_TagString: Untagged
@@ -751,6 +784,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.CollectibleItem
   item: {fileID: 11400000, guid: d09c3210cf3448b2b8e9b442f518f8ea, type: 2}
   quantity: 1
+--- !u!114 &900000009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900000001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e4241ed8452020469289c007f707fdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.SaveableId
+  id: b6c470013d47452a8de5b5a4de19ff76
 --- !u!1 &900000010 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3369110516078410530, guid: 400efd27832937d4e9099ecf75dbde6c, type: 3}
@@ -796,6 +842,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.DialogueTrigger
   dialogue: {fileID: 11400000, guid: c584dd74aa77bf04e90543658f5d2f0b, type: 2}
+--- !u!114 &900000013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900000001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd83a8a912328794b8be3401d8574640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.SaveableCollectible
 --- !u!1 &1143158545
 GameObject:
   m_ObjectHideFlags: 0

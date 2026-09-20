@@ -12,10 +12,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cce358b59bd8d8468378457982b5926, type: 3}
   m_Name: TestItemA
   m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.ItemData
-  itemId: key
-  displayName: 
-  description: 
+  itemId: test_item_a
+  displayName:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  description:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   icon: {fileID: 0}
   worldPrefab: {fileID: 0}
+  equippedModelPrefab: {fileID: 0}
   maxStackSize: 1
   equippableBehavior: {fileID: 0}
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49abb139e63b5b4caad7884b9f4011b, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.ItemDatabase
+  items:
+  - {fileID: 11400000, guid: e2f8f05e4f2c2c344916cb6049ee63c1, type: 2}
+  - {fileID: 11400000, guid: b9b6f6c820a28db488265231db9d8e1e, type: 2}
+  - {fileID: 11400000, guid: d3e351037bdb947489f3ae88dbea00f6, type: 2}
+  - {fileID: 11400000, guid: d09c3210cf3448b2b8e9b442f518f8ea, type: 2}
