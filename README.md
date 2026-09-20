@@ -29,15 +29,22 @@ the full design brief and rationale behind this project's structure.
   grey fog/sky — vs. `DemoLevel2Atmosphere.asset` — pure black), proving
   fog/skybox are per-level while `Assets/StyleProfiles/N64VisualStyle.asset`
   (ambient, color grading, bloom, texture filtering) stays the same global
-  look across both. A `PortalToDemoLevel2` / `PortalToDemoLevel` object in
-  each level (an `Interactable` + `InteractableSceneChangeTrigger`) lets you
-  walk between them.
+  look across both. Same idea for audio: each level has its own (currently
+  empty) `SceneAmbientAudio`. A `PortalToDemoLevel2` / `PortalToDemoLevel`
+  object in each level (an `Interactable` + `InteractableSceneChangeTrigger`)
+  lets you walk between them.
 - **`Assets/Items/`** — `RustyKey` (a plain key, not equippable),
   `TestKnife` (equippable, exercises the inventory's Equip/Unequip toggle
   and its live 3D preview), `TestItemA`/`TestItemB` (inventory-grid filler),
   `HeldItemBehavior`/`TestKnifeBehavior` (their `EquippableBehavior` assets),
   `ItemDatabase` (lists all of the above, for `SaveManager` to resolve a
   saved item id back to its asset).
+- **`Assets/AudioProfiles/N64AudioProfile.asset`** — the game's global
+  sounds (UI hover/confirm, main menu music, default footstep/pickup/
+  interact). Every clip is currently empty — there are no audio assets in
+  this demo project yet, but the whole system (UI sounds on every button,
+  `FootstepAudio` on the Player, `SceneAmbientAudio` in each level) is
+  wired up and safe to run with nothing assigned; drop clips in to hear it.
 - **`Assets/Dialogues/TestDialogue.asset`** — a 4-node branching conversation
   (greeting → yes/no question → two endings), fully localized (EN/IT).
 - **`Assets/Prefabs/`** — the `Player` prefab, item world/equipped-model
