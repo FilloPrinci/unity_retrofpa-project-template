@@ -5964,6 +5964,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.AudioManager
   initialProfile: {fileID: 11400000, guid: 2ffd97cd7b963d44cb6703c712965b17, type: 2}
   worldSoundVolume: 1
+  maxMusicVolume: 0.75
+  maxSfxVolume: 0.5
 --- !u!114 &1442406492
 MonoBehaviour:
   m_ObjectHideFlags: 0
