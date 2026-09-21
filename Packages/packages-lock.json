@@ -1,15 +1,16 @@
 {
   "dependencies": {
     "com.filloprinci.retrofpa": {
-      "version": "file:../../unity_retrofpa-core",
+      "version": "https://github.com/FilloPrinci/unity_retrofpa-core.git#v0.1.0",
       "depth": 0,
-      "source": "local",
+      "source": "git",
       "dependencies": {
         "com.unity.render-pipelines.universal": "17.3.0",
         "com.unity.localization": "1.5.13",
         "com.unity.inputsystem": "1.19.0",
         "com.unity.ugui": "2.0.0"
-      }
+      },
+      "hash": "9677a2e069807ceb88f997c9d66fed558192c71c"
     },
     "com.unity.addressables": {
       "version": "2.9.1",

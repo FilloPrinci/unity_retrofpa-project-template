@@ -85,24 +85,17 @@ Two Unity Scene Templates live in `Assets/SceneTemplates/` (they show up in
 
 ## Setup
 
-Clone this repository **as a sibling of `unity_retrofpa-core`**, e.g.:
-
-```
-some-folder/
-  unity_retrofpa-core/
-  unity_retrofpa-project-template/
-```
-
-While `retrofpa-core` is under active co-development, this project references
-it by local file path in [`Packages/manifest.json`](Packages/manifest.json):
+Clone this repository and open it in Unity Hub. The core package is pulled
+from git, pinned to a release tag, in [`Packages/manifest.json`](Packages/manifest.json):
 
 ```json
-"com.filloprinci.retrofpa": "file:../../unity_retrofpa-core"
+"com.filloprinci.retrofpa": "https://github.com/FilloPrinci/unity_retrofpa-core.git#v0.1.0"
 ```
 
-If you place the two repositories somewhere else relative to each other,
-update that path accordingly. Once `retrofpa-core` is versioned
-independently, this will switch to a git URL pinned to a release tag.
+To co-develop the core alongside this project, clone
+[`unity_retrofpa-core`](https://github.com/FilloPrinci/unity_retrofpa-core) as a
+sibling folder and temporarily point the dependency at it
+(`"file:../../unity_retrofpa-core"`; adjust the path if you place it elsewhere).
 
 Open the project in Unity Hub once cloned; Unity will resolve the package
 dependency and import automatically.
