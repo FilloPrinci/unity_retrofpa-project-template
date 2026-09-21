@@ -380,7 +380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9afc9ca5d2106de47bb943e10bd4eea9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.SceneAmbientAudio
-  ambientTrack: {fileID: 0}
+  ambientTrack: {fileID: 8300000, guid: 56e33d1cbc81cfd44a9505450240fe2b, type: 3}
 --- !u!1001 &712078336
 PrefabInstance:
   m_ObjectHideFlags: 0

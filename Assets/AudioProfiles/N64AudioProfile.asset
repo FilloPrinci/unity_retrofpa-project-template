@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81c63ab68a568d64cb973316b14ac31a, type: 3}
   m_Name: N64AudioProfile
   m_EditorClassIdentifier: FilloPrinci.RetroFpa.Runtime::FilloPrinci.RetroFpa.AudioProfile
-  uiHoverSound: {fileID: 0}
-  uiConfirmSound: {fileID: 0}
-  mainMenuMusic: {fileID: 0}
-  defaultFootstepSound: {fileID: 0}
-  defaultPickupSound: {fileID: 0}
-  defaultInteractSound: {fileID: 0}
+  uiHoverSound: {fileID: 8300000, guid: cd092ad13de41c24c9d3838981942e04, type: 3}
+  uiConfirmSound: {fileID: 8300000, guid: c65f5a28baa168d4bbcb020e7c0e345d, type: 3}
+  mainMenuMusic: {fileID: 8300000, guid: 422a01e4a23540840b028a59d816ff20, type: 3}
+  defaultFootstepSound: {fileID: 8300000, guid: 0945b72b3fde78e41b2d01139ecee2a5, type: 3}
+  defaultPickupSound: {fileID: 8300000, guid: 0e89b476d4715fd42935e9900eedb033, type: 3}
+  defaultInteractSound: {fileID: 8300000, guid: 867bd21a8f297d248b1b12c24f1a37d1, type: 3}
