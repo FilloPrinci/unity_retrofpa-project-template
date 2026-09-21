@@ -126,10 +126,8 @@ of its own — see its README ("Using your own audio") to wire up your own.
 
 ## Known gaps
 
-Mirrors `retrofpa-core`'s own list — no combat/health/HUD yet (equipping the
-test knife has no gameplay effect beyond the input path), no Scene Template
-asset yet (new levels are still built by hand or duplicated, as `DemoLevel2`
-was from `DemoLevel`).
+Mirrors `retrofpa-core`'s own list - no combat/health/HUD yet (equipping the
+test knife has no gameplay effect beyond the input path).
 
 ## License
 
