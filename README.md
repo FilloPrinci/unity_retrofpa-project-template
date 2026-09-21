@@ -58,6 +58,25 @@ cube to try the other level. "Continue" on the main menu (only enabled once
 you've saved) restores the exact level, position, inventory, and equipped
 item — and any collectibles you already picked up stay gone.
 
+## Scene Templates
+
+Two Unity Scene Templates live in `Assets/SceneTemplates/` (they show up in
+*File → New Scene*):
+
+- **Retro FPA Level (Base)** — a new level: a `SpawnPoint`, a `SceneAtmosphere`
+  and a `SceneAmbientAudio`. Its atmosphere profile is **cloned** for every
+  new level, so editing one level's fog/sky never touches another's. The
+  Player, UI and managers are *not* in it (they live in the persistent
+  scene). After creating a level, add it to *Build Settings* and load it by
+  name (`GameBootstrapper`, `SceneChangeTrigger`, `InteractableSceneChangeTrigger`).
+  Assign a track to its `SceneAmbientAudio` for the level's music.
+- **Retro FPA Persistent (Bootstrap)** — the always-loaded scene: every
+  manager, the Player and the full UI, wired together (a copy of
+  `Persistent.unity`). Everything it uses is a shared *reference* (prefabs,
+  input actions, the demo's item/audio/style assets) except the global Volume
+  profile, which is cloned because `StyleManager` writes into it at runtime.
+  Re-point the demo assets to your own after creating it.
+
 ## Requirements
 
 - Unity **6000.3.17f1** (see [`ProjectSettings/ProjectVersion.txt`](ProjectSettings/ProjectVersion.txt))

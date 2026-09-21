@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: LevelBase
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.SceneTemplate.SceneTemplateAsset
+  templateScene: {fileID: 102900000, guid: be719e402fd25e045b9307c57e0f77f3, type: 3}
+  templateName: Retro FPA Level (Base)
+  description: An empty level with a SpawnPoint, a SceneAtmosphere (fog/skybox, its
+    own cloned profile) and a SceneAmbientAudio (assign a looping track). The Player,
+    UI and managers live in the persistent scene - add the new scene to Build Settings
+    and load it by name.
+  preview: {fileID: 0}
+  dependencies:
+  - dependency: {fileID: 11400000, guid: c24b1ae5ab7d0ad459decad334716c84, type: 2}
+    instantiationMode: 0
+  templatePipeline: {fileID: 0}
+  badge: {fileID: 0}
+  addToDefaults: 1
