@@ -109,3 +109,8 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Third-party audio used only to try the demo (Asset Store license: not redistributable).
+# See README "Demo audio".
+/Assets/96 General Library (Free Sample)/
+/Assets/96 General Library (Free Sample).meta

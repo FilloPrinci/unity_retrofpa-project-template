@@ -88,6 +88,23 @@ independently, this will switch to a git URL pinned to a release tag.
 Open the project in Unity Hub once cloned; Unity will resolve the package
 dependency and import automatically.
 
+## Demo audio
+
+To try the audio system, `N64AudioProfile` (and the `SurfaceAudio` /
+`SceneAmbientAudio` overrides in the demo levels) point at clips from the
+free Asset Store pack **96 General Library (Free Sample Pack)**. That pack is
+third-party and not redistributable, so it is **not in this repository**
+(`.gitignore`d). Without it the demo runs silently, with no errors, and
+those fields show as "Missing".
+
+To hear it: import the pack from the Asset Store (Package Manager → My
+Assets). It ships with its own `.meta` files, so the existing references
+should re-link automatically; if any don't, re-assign them in
+`Assets/AudioProfiles/N64AudioProfile.asset`.
+
+This is only a test setup for this template: `retrofpa-core` ships no audio
+of its own — see its README ("Using your own audio") to wire up your own.
+
 ## Known gaps
 
 Mirrors `retrofpa-core`'s own list — no combat/health/HUD yet (equipping the
